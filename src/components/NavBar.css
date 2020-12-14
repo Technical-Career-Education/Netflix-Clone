@@ -1,0 +1,47 @@
+.navbar {
+  padding: 15px 4%;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.navbar__black {
+  background-color: #000;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar__first_child {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__second_child {
+  width: 30%;
+}
+
+.navbar__last_child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+.logo {
+  width: 95px;
+}
+
+li > * {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
